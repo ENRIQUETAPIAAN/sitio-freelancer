@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseñador Freelancer</title>
+    <link rel="preload" href="css/estilos.css" as="style">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <header>
@@ -78,6 +80,35 @@
     
     <section>
         <h2>Contacto</h2>
+        <form>
+            <fieldset>
+                <legend>Contactame llenando los campos.</legend>
+
+                <div>
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Nombre:">
+                </div>
+
+                <div>
+                    <label>Teléfono</label>
+                    <input type="tel" placeholder="Teléfono:">
+                </div>
+
+                <div>
+                    <label>Correo</label>
+                    <input type="email" placeholder="Email:">
+                </div>
+
+                <div>
+                    <label>Mensaje</label>
+                    <textarea></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Envíar">
+                </div>
+            </fieldset>
+        </form>
     </section>
 
     <footer>
