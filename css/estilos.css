@@ -152,6 +152,13 @@ h1,h2,h3{
     display: flex;
     align-items: flex-end;
 }
+
+.servicios,
+.navegacion-principal,
+.formulario{
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
 @media (min-width: 768px){
     .servicios{ /*diferente formas de escribir grid*/
         display: grid;
